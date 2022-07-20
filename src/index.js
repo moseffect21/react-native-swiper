@@ -7,13 +7,13 @@ import PropTypes from 'prop-types'
 import {
   Text,
   View,
-  ViewPropTypes,
   ScrollView,
   Dimensions,
   TouchableOpacity,
   Platform,
   ActivityIndicator
 } from 'react-native'
+import { ViewPropTypes } from 'deprecated-react-native-prop-types';
 
 /**
  * Default styles
